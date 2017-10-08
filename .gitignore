@@ -1,2 +1,4 @@
 /Spoon
 /.mypy_cache
+/config.py
+/__pycache__
