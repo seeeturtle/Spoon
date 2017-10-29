@@ -1,11 +1,10 @@
 import datetime
-from pprint import pprint
 import parse
 
 def main():
     time = datetime.datetime.now()
     parsed = parse.get_foods(time)
-    pprint(parsed)
+    parse.save_db(parsed, time)
 
 
 if __name__ == '__main__':
