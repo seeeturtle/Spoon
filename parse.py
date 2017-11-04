@@ -56,6 +56,9 @@ def parse_foods(text, time):
             # remove parentheses
             try:
                 food.name = food.name[:food.name.index('(')]
+            except:
+                pass
+            try:
                 food.name = food.name[:food.name.index('/')]
             except:
                 pass
