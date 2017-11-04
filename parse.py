@@ -111,4 +111,4 @@ def is_delicous(foodstuff):
         if 5 in foodstuff and 13 in foodstuff:
             return 't'
         return 'f'
-    return None
+    return 'f'
