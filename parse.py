@@ -56,6 +56,7 @@ def parse_foods(text, time):
             # remove parentheses
             try:
                 food.name = food.name[:food.name.index('(')]
+                food.name = food.name[:food.name.index('/')]
             except:
                 pass
             if len(splitted) > 1:
