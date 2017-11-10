@@ -1,6 +1,26 @@
-숟가락
-========
+:fork_and_knife:Spoon
+======================
 
-Python 3.5.3에서 실행가능
+Plate의 Web Scraper입니다.
 
-급식판의 급식정보를 퍼오는 웹 스크래퍼.
+설치
+-----
+
+```
+$ git clone https://github.com/joshua1b/Spoon.git
+```
+
+실행
+-----
+
+```
+$ python -m venv myvenv
+$ source myvenv/bin/activate
+$ pip install -r requirements.txt
+$ python main.py [year] [month]
+
+```
+
+문의
+-----
+issue로 문의해주세요.
