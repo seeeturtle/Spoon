@@ -2,6 +2,7 @@ import datetime
 import parse
 import sys
 
+
 def main():
     year, month, day = sys.argv[1:]
     time = datetime.datetime(int(year), int(month), int(day))
