@@ -1,0 +1,3 @@
+[cli]
+bears = PEP8Bear
+files = config-template.py,config.py,main.py,parse.py
